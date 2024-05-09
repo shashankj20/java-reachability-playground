@@ -17,7 +17,7 @@ jobs:
     - name: Build with Maven
       run: |
         mvn verify sonar:sonar \
-        -Dsonar.projectKey=sonarcloud-analysis_java \
+        -Dsonar.projectKey=sonarcloud-analysis20 \
         -Dsonar.organization=sonarcloud-analysis \
         -Dsonar.host.url=https://sonarcloud.io
         
